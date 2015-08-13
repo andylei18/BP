@@ -1,0 +1,59 @@
+#bp-panel-sideMenu .bp-nav-tab {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 200px;
+    padding: 0;
+}
+.bp-nav-tab .tab-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    overflow: hidden;
+    -webkit-box-shadow: 6px 0 10px 0 rgba(0,0,0,.4);
+    box-shadow: 6px 0 10px 0 rgba(0,0,0,.4);
+}
+.bp-nav-tab .tab-header {
+    overflow: hidden;
+    height: 43px;
+    background: #EEE;
+    border-bottom: 1px solid #E1E1E1;
+}
+.bp-nav-tab .tab-header h1 {
+    font-weight: 400;
+    float: left;
+    width: 23%;
+    text-align: center;
+    line-height: 44px;
+    color: #333;
+    font-size: 14px;
+}
+.bp-nav-tab .tab-content {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+}
+.bp-nav-tab .tab-nav {
+    background: #EEE;
+    color: #9B9B9B;
+    font-size: 14px;
+    text-align: center;
+    float: left;
+    width: 23%;
+    height: 100%;
+}
+.bp-nav-tab ul, .bp-nav-tab li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.bp-nav-tab .tab-nav li.active {
+    background: #fff;
+    color: #333;
+}
+.bp-nav-tab .tab-nav li:first-child {
+    visibility: hidden;
+}

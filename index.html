@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=320.1, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="format-detection" content="telephone=no, email=no">
+    <script type="text/javascript">
+        ! function() {
+            function a() {
+                window.remFontSize = document.documentElement.clientWidth / 16;
+                document.documentElement.style.fontSize = document.documentElement.clientWidth / 16 + "px"
+            }
+            var b = null;
+            window.addEventListener("resize", function() {
+                clearTimeout(b), b = setTimeout(a, 300)
+            }, !1), a()
+        }(window);
+    </script>
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/lib/animate.min.css">
+
+    <!--<link rel="stylesheet" href="assets/css/module/index.css">-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="assets/js/lib/zepto.min.js"></script>
+    <script src="dist/bp.js"></script>
+    <script data-main="main.js"  src="assets/js/lib/require.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+.bp-mobile-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9998;
+}
+.bp-mobile-header .header-content {
+    position: relative;
+    background: -webkit-linear-gradient(top,rgba(0,0,0,.7),rgba(0,0,0,0));
+    background: linear-gradient(top,rgba(0,0,0,.7),rgba(0,0,0,0));
+    -webkit-transition: background-color .2s linear;
+    -moz-transition: background-color .2s linear;
+    -o-transition: background-color .2s linear;
+    transition: background-color .2s linear;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+.mui-flex, .mui-flex *, .mui-flex :after, .mui-flex :before {
+    box-sizing: border-box;
+}
+.mui-flex {
+    display: -webkit-box!important;
+    display: -webkit-flex!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.mui-flex>.cell.fixed {
+    -webkit-box-flex: 0!important;
+    -webkit-flex: none!important;
+    -ms-flex: none!important;
+    flex: none!important;
+    width: auto;
+}
+.mui-flex>.cell {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    width: 0;
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    max-width: 100%;
+    display: block;
+    padding: 0!important;
+    position: relative;
+}
+.category-trigger {
+    display: block;
+    height: 45px;
+    width: 25px;
+    margin-left: 18px;
+    text-indent: -1000em;
+    background: url('../../img/head/head1.png') no-repeat 2px 6px;
+    background-size: 282px 31px;
+}
+.mobile-search {
+    margin: 6px 18px 0;
+    height: 33px;
+    background: #fff;
+    opacity: .9;
+    border-radius: 2px;
+    line-height: 33px;
+}
+.mobile-search .search-button {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    width: 20px;
+    height: 30px;
+    border: 0;
+    z-index: 1;
+    cursor: pointer;
+    background: url('../../img/head/head1.png') no-repeat -82px 2px;
+    background-size: 282px 31px;
+    background-color: #fff;
+    text-indent: -1000em;
+}
+.my-info-trigger {
+    display: block;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 18px;
+    color: #fff;
+}
+.mobile-search .search-input {
+    margin-left: 10px;
+    font-size: 14px;
+    outline: 0;
+    border: 0;
+}
