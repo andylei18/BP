@@ -4,9 +4,9 @@
 define(function(){
     var source =  '<div id="B_Scroll" class="bp-page-list">'
     +    '<div class="xs-container">'
-    +    '<ul class="bp-list g-bizlist xs-list">'
+    +    '<ul class="bp-list xs-content xs-list">'
     +    '{{each list as value i}}'
-    +        '<li>Ë÷Òý {{i + 1}} £º{{value}}</li>'
+    +        '<li class="xs-row">ç´¢å¼• {{i + 1}} ï¼š{{value}}</li>'
     +    '{{/each}}'
     +    '</ul>'
     +    '</div>'

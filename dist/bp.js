@@ -561,7 +561,6 @@
                 $fromPageBody = $('.bp-page-body', $fromPage),
                 fromStartCss = {};
             fromStartCss[transformName] = 'translate( 100%, 0)';
-            console.log(222)
             $fromPageBody.emulateTransition(fromStartCss, function() {
                 togglePagezIndex($fromPage, $toPage)
                 callback()
@@ -572,7 +571,6 @@
                 $fromPageBody = $('.bp-page-body', $fromPage),
                 toStartCss = {},
                 toEndCss = {};
-            console.log(111)
             toStartCss[transformName] = 'translate(-100%, 0)';
             toEndCss[transformName] = 'translate(0%, 0)';
 

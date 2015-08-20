@@ -1,130 +1,92 @@
-[{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},
-	{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	},{
-		"data":{
-			"num": 0
-		}
-	}]
+[
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+    "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+    "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+    "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+    "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+    "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+    "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    },
+    {
+        "data":{"text":"just a list item","type":"normal"}
+    }
+]

@@ -1050,8 +1050,8 @@ _pulldown_ = function (exports) {
   var Base = base;
   var prefix;
   var containerCls;
-  var content = 'Pull Down To Refresh';
-  var loadingContent = 'Loading...';
+  var content = '下拉可以刷新';
+  var loadingContent = '努力加载中...';
   var PullDown = function (cfg) {
     PullDown.superclass.constructor.call(this);
     this.userConfig = Util.mix({
@@ -1059,8 +1059,8 @@ _pulldown_ = function (exports) {
       height: 60,
       autoRefresh: true,
       //是否自动刷新页面
-      downContent: 'Pull Down To Refresh',
-      upContent: 'Release To Refresh',
+      downContent: '下拉可以刷新',
+      upContent: '释放立即更新',
       loadingContent: loadingContent,
       prefix: 'xs-plugin-pulldown-'
     }, cfg);
